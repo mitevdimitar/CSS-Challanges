@@ -1,0 +1,77 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+*:focus {
+    outline: none !important;
+}
+.frame {
+    background-color: #2C3E50 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+    background: #fff;
+    color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.round-div {
+    background-color: #354A5F;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+}
+button {
+    background-color: #ECF0F1;
+    position: absolute;
+    top: 73%;  
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    padding: 2% 13%;
+    font-size: 0.9rem;
+    color: #2c3e50;
+    border-radius: 20px;
+    cursor: pointer;
+    }
+button:hover {
+    background: #1abc9c;
+    color: #fff;
+}
+.rectangle {
+    border: 1px solid #ECF0F1;
+    width: 110px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-top: 30px solid white;
+}
+.inside-triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 55px solid transparent;
+    border-right: 56px solid transparent;
+    border-top: 29px solid #354A5F;
+    position: absolute;
+    top: 0%;
+}
